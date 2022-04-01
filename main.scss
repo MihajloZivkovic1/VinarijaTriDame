@@ -301,4 +301,41 @@
   text-align:center;
   display:inline-block;
 }
+@media (min-width:390px){
+  .carousel-caption p{
+    font-size:15px;
+  }
+}
+@media (min-width:375px){
+  .carousel-caption p{
+    font-size:13px;
+  }
+}
+@media(min-width:360px){
+  .carousel-caption p{
+    font-size:13px;
+  }
+}
+@media (min-width: 820px){
+  .carousel-caption p{
+    font-size:25px;
+  }
+}
+@media(min-width:375px){
+  .col-lg-7 h1{
+    font-size:50px;
+  }
 
+}
+@media(min-width:375px){
+  .col-lg-7 p{
+    font-size:15px;
+  }
+
+}
+@media (min-width:320px){
+    .col-lg-7 h1{
+      font-size:25px;
+    }
+   
+}
