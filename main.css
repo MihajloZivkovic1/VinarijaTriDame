@@ -345,9 +345,15 @@ body {
   }
 }
 
-@media (min-width: 320px) {
+@media only screen and (max-width: 424px) and (min-width: 319px) {
   .carousel-caption p {
     font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 769px) {
+  .carousel-caption p {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=main.css.map */
