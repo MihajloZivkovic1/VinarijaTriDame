@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+.icons-style {
+  color: black;
+  font-size: 2rem;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #eee;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: none;
+  border: 1px solid transparent;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  border-color: #f5f5f5 #f5f5f5 #eee;
+  isolation: isolate;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #757575;
+  background-color: #000;
+  border-color: transparent;
+}
+
+.wine-tabs {
+  border-bottom: 0;
+}
+
+.wine-tabs .nav-link:hover,
+.wine-tabs .nav-link:focus {
+  border-color: transparent;
+}
+
+.wine-tabs .nav-link.active,
+.wine-tabs .nav-item.show .nav-link {
+  border-bottom-color: #757575;
+}
+
+.effect {
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(33.33%, rgba(0, 0, 0, 0)), color-stop(66.66%, white), color-stop(99.99%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 33.33%, white 66.66%, rgba(255, 255, 255, 0) 99.99%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.opis {
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.opis {
+  position: relative;
+}
+
+.main {
+  background-image: url(./vinograd.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.color-white {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.letter {
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-size: 23px;
+}
+
+@media (min-width: 1260px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 920px) {
+  section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+  section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .imgsm {
+    width: 75%;
+  }
+}
+
+@media (max-width: 425px) {
+  p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .imgmd {
+    width: 75%;
+  }
+}
+
+@media (max-width: 766px) {
+  .imgmd {
+    width: 75%;
+  }
+}
+
+@media (min-width: 991px) {
+  .container-d {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.slika {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pt-1 {
+  padding: 30px;
+}
+
+.section-bg {
+  background-image: url(dvoristevinarija.jpg);
+}
+
+.dark-border {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.carousel-item-2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+
+.carousel-caption h5 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  top: 2rem;
+}
+
+.carousel-item-relative {
+  height: 32rem;
+  position: relative;
+}
+
+.container-absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  right: 0px;
+  padding-bottom: 50px;
+}
+
+.slika1 {
+  background: url(/vinopozadina.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*footer */
+.section-subscribe {
+  padding: 5em 0;
+}
+
+.form-control {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  height: 50px;
+}
+
+.font-control:focus {
+  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-control:focus, form.control:active {
+  outline: none;
+}
+
+.btn {
+  -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.btn.btn-secondary {
+  color: #fff;
+  border-width: 2px;
+  background: #bc5148;
+  border-color: #bc5148;
+  padding: 10px;
+}
+
+.site-footer {
+  padding: 5em 0;
+  background: #bc5148;
+  font-size: 14px;
+  color: #f3ecec;
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer a {
+  color: #ffc107;
+  border-bottom: 1px solid transparent;
+}
+
+.site-footer a:hover {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.site-footer h2 {
+  font-size: 22px;
+  margin-bottom: 28px;
+  letter-spacing: .05em;
+  color: #fff;
+}
+
+.site-footer .footer-link li {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.footer-social a {
+  line-height: 0;
+  margin: 0 5px 5px 0;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+@media (min-width: 390px) {
+  .carousel-caption p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 375px) {
+  .carousel-caption p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 360px) {
+  .carousel-caption p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 375px) {
+  .col-lg-7 h1 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 375px) {
+  .col-lg-7 p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 424px) and (min-width: 319px) {
+  .carousel-caption p {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 769px) {
+  .carousel-caption p {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
